@@ -26,6 +26,12 @@ export default function RootLayout({
         <div className="flex min-h-screen flex-col overflow-hidden supports-[overflow:clip]:overflow-clip">
           {children}
         </div>
+        <script
+          src="https://demo-staging.d1hlqxzsj0hfwo.amplifyapp.com/widget-import.js"
+          communityId="1-15"
+          sampleQuestions='["What is Bloxroute?", "How to start with Bloxroute?"]'
+          communityName="Bloxroute"
+        ></script>
       </body>
     </html>
   );
